@@ -1,0 +1,20 @@
+### GET healthcheck
+
+GET http://localhost:8080/v1/healthcheck
+
+
+###
+POST http://localhost:8080/v1/movies
+Content-Type: application/json
+
+{
+    "title" : "This is what",
+    "year" : 2007,
+    "runtime" : 199,
+    "genres" : ["blue"]
+}
+
+
+
+###
+GET http://localhost:8080/v1/movies/1

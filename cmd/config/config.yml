@@ -1,8 +1,0 @@
-## 版本号 1.0
-version : '1.0'
-## 服务名称
-services:
-  green_light:
-    port: 8080
-    env: "dev"
-  
